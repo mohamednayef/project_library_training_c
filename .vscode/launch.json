@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/mohamednayef/Documents/cpp/project_library_training_cpp",
+      "program": "/Users/mohamednayef/Documents/cpp/project_library_training_cpp/build/Debug/outDebug"
+    }
+  ]
+}
