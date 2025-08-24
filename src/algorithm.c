@@ -110,7 +110,18 @@ void bubble_sort(int arr[], int n)
             return;
     }
 }
-void selection_sort(int arr[], int n);
+void selection_sort(int arr[], int n)
+{
+    for(int i=0; i<n; i++) {
+        int min = i;
+        for(int j=i; j<n; j++) {
+            if(arr[j] < arr[min]) {
+                min = j;   
+            }
+        }
+        
+    }
+}
 void insertion_sort(int arr[], int n);
 void merge_sort(int arr[], int left, int right);
 void quick_sort(int arr[], int low, int high);

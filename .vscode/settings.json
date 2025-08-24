@@ -57,6 +57,10 @@
   "C_Cpp_Runner.useLinkTimeOptimization": false,
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
   "files.associations": {
-    "iostream": "c"
+    "iostream": "c",
+    "stdio.h": "c",
+    "_stdio.h": "c",
+    "_types.h": "c",
+    "_null.h": "c"
   }
 }
